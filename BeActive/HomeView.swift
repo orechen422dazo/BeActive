@@ -1,6 +1,7 @@
 import SwiftUI
 
 struct HomeView: View {
+    @EnvironmentObject var manager: HealthManager
     var body: some View {
         
         VStack {
