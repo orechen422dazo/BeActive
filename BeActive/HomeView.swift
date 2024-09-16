@@ -9,6 +9,7 @@ struct HomeView: View {
                 
                 ActivityCard()
             }
+            .padding(.horizontal)
         }
     }
 }
