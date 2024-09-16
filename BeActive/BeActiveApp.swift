@@ -7,6 +7,7 @@ struct BeActiveApp: App {
     var body: some Scene {
         WindowGroup {
             BeActiveTabView()
+                .environmentObject(manager)
         }
     }
 }

@@ -14,6 +14,7 @@
 		B34A8F282C98DFA8003CFB6F /* BeActiveTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34A8F272C98DFA8003CFB6F /* BeActiveTabView.swift */; };
 		B34A8F2A2C98E008003CFB6F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34A8F292C98E008003CFB6F /* HomeView.swift */; };
 		B34A8F2C2C98E113003CFB6F /* ActivityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34A8F2B2C98E113003CFB6F /* ActivityCard.swift */; };
+		B34A8F302C98F225003CFB6F /* HealtManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34A8F2F2C98F225003CFB6F /* HealtManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B34A8F272C98DFA8003CFB6F /* BeActiveTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeActiveTabView.swift; sourceTree = "<group>"; };
 		B34A8F292C98E008003CFB6F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		B34A8F2B2C98E113003CFB6F /* ActivityCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCard.swift; sourceTree = "<group>"; };
+		B34A8F2F2C98F225003CFB6F /* HealtManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealtManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				B34A8F1A2C98DDCE003CFB6F /* ContentView.swift */,
 				B34A8F272C98DFA8003CFB6F /* BeActiveTabView.swift */,
 				B34A8F2B2C98E113003CFB6F /* ActivityCard.swift */,
+				B34A8F2F2C98F225003CFB6F /* HealtManager.swift */,
 				B34A8F292C98E008003CFB6F /* HomeView.swift */,
 				B34A8F1C2C98DDCF003CFB6F /* Assets.xcassets */,
 				B34A8F1E2C98DDCF003CFB6F /* BeActive.entitlements */,
@@ -148,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B34A8F302C98F225003CFB6F /* HealtManager.swift in Sources */,
 				B34A8F1B2C98DDCE003CFB6F /* ContentView.swift in Sources */,
 				B34A8F2A2C98E008003CFB6F /* HomeView.swift in Sources */,
 				B34A8F282C98DFA8003CFB6F /* BeActiveTabView.swift in Sources */,
@@ -286,6 +290,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Please allow access to enjoy";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -324,6 +329,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Please allow access to enjoy";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
